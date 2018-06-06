@@ -1,3 +1,6 @@
-*checkpoint.ipynb
-.ipynb_checkpoints/*.ipynb
-.ipynb_checkpoints/pixelwise_geometry4tropospheric_delay-checkpoint.ipynb
+*/*checkpoint.ipynb
+.DS_Store
+*/.DS_Store
+network*/*.jpg
+network*/*.png
+
