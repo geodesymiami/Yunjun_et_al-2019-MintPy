@@ -3,5 +3,7 @@
 */.DS_Store
 network*/*.jpg
 network*/*.png
+network*/*.pdf
+network*/*.txt
 
 decorrelation_function.jpg
