@@ -7,3 +7,8 @@ network*/*.pdf
 network*/*.txt
 
 decorrelation_function.jpg
+rms_outlier_detection/rms_phaseResidual_AlcedoAlosAT133.jpg
+rms_outlier_detection/rms_phaseResidual_AlcedoEnvA2T061.jpg
+rms_outlier_detection/rms_phaseResidual_AlcedoSenDT128.jpg
+networkInv_zeroPhase/decor_noise.npy
+networkInv_zeroPhase/decor_noise.npy
