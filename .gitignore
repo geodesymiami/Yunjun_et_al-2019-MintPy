@@ -21,3 +21,4 @@ networkInv_zeroPhase/decor_noise.npy
 *.npy
 networkInv_zeroPhase/decor_noise.npy
 networkInv_zeroPhase/decor_noise.npy
+*.tenv3
