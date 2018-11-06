@@ -22,3 +22,5 @@ networkInv_zeroPhase/decor_noise.npy
 networkInv_zeroPhase/decor_noise.npy
 networkInv_zeroPhase/decor_noise.npy
 *.tenv3
+network_redundancy/test.db
+network_redundancy/test.pickle
