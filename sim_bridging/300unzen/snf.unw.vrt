@@ -1,0 +1,16 @@
+<VRTDataset rasterXSize="300" rasterYSize="300">
+    <VRTRasterBand band="1" dataType="Float32" subClass="VRTRawRasterBand">
+        <SourceFilename relativeToVRT="1">snf.unw</SourceFilename>
+        <ByteOrder>LSB</ByteOrder>
+        <ImageOffset>0</ImageOffset>
+        <PixelOffset>4</PixelOffset>
+        <LineOffset>2400</LineOffset>
+    </VRTRasterBand>
+    <VRTRasterBand band="2" dataType="Float32" subClass="VRTRawRasterBand">
+        <SourceFilename relativeToVRT="1">snf.unw</SourceFilename>
+        <ByteOrder>LSB</ByteOrder>
+        <ImageOffset>1200</ImageOffset>
+        <PixelOffset>4</PixelOffset>
+        <LineOffset>2400</LineOffset>
+    </VRTRasterBand>
+</VRTDataset>

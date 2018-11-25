@@ -1,0 +1,9 @@
+<VRTDataset rasterXSize="300" rasterYSize="300">
+    <VRTRasterBand band="1" dataType="Byte" subClass="VRTRawRasterBand">
+        <SourceFilename relativeToVRT="1">snf.unw.conncomp</SourceFilename>
+        <ByteOrder>LSB</ByteOrder>
+        <ImageOffset>0</ImageOffset>
+        <PixelOffset>1</PixelOffset>
+        <LineOffset>300</LineOffset>
+    </VRTRasterBand>
+</VRTDataset>

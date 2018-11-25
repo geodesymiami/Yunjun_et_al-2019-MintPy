@@ -1,0 +1,18 @@
+<VRTDataset rasterXSize=“300” rasterYSize=“300”>
+    <SRS>EPSG:4326</SRS>
+    <GeoTransform>0, 1, 0.0, 0, 0.0, 1</GeoTransform>
+    <VRTRasterBand band="1" dataType="Float32" subClass="VRTRawRasterBand">
+        <SourceFilename relativeToVRT="1">filt_fine.unw</SourceFilename>
+        <ByteOrder>LSB</ByteOrder>
+        <ImageOffset>0</ImageOffset>
+        <PixelOffset>4</PixelOffset>
+        <LineOffset>23648</LineOffset>
+    </VRTRasterBand>
+    <VRTRasterBand band="2" dataType="Float32" subClass="VRTRawRasterBand">
+        <SourceFilename relativeToVRT="1">filt_fine.unw</SourceFilename>
+        <ByteOrder>LSB</ByteOrder>
+        <ImageOffset>11824</ImageOffset>
+        <PixelOffset>4</PixelOffset>
+        <LineOffset>23648</LineOffset>
+    </VRTRasterBand>
+</VRTDataset>
