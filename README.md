@@ -1,2 +1,1 @@
-# 2018_ComputGeosci_PySAR
-Figures in Yunjun_et_al_2018_ComputGeosci
+# Figures in Yunjun_et_al-2019-Remote_Sensing_of_Environment (in prep.)
