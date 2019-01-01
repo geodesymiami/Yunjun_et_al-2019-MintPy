@@ -25,3 +25,7 @@ networkInv_zeroPhase/decor_noise.npy
 network_redundancy/test.db
 network_redundancy/test.pickle
 *.pickle
+sim*/*
+sim_bridging/*
+sim_bridging/100/sim*
+sim*/*/*
