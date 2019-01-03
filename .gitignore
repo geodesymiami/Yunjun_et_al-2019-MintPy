@@ -29,3 +29,6 @@ sim*/*
 sim_bridging/*
 sim_bridging/100/sim*
 sim*/*/*
+sim_bridging/100/sim.int
+*.int
+sim_bridging/100/sim.int
