@@ -2,7 +2,7 @@
 
 + Yunjun, Z., H. Fattahi, F. Amelung, 2019, InSAR time series analysis: error correction and noise reduction, _Remote Sensing of Environment_ (under review).
 
-### Content ([nbviewer](https://nbviewer.jupyter.org/github/yunjunz/2019_RSE/tree/master/))  
+### Content ([nbviewer](https://nbviewer.jupyter.org/github/geodesymiami/Yunjun_et_al-2019-RSE/tree/master/))  
 + Fig. 1 - Performance of four weight functions.    
 + Fig. 2 - Phase-unwrapping error correction with bridging.
 + Fig. 3 - Characteristics of phase-unwrapping error in the closure phase.
