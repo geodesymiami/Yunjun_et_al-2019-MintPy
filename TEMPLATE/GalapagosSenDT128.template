@@ -1,6 +1,6 @@
 # vim: set filetype=cfg:
 ##----------------------------- SentinelStack/ISCE ---------------------##
-cleanopt = 0    # [ 0 / 1 / 2 / 3 4]   0: no cleaning, 1: largest files, 2: merged/etc, PROCESS dirs, 3: SLC,RAW, 4: everything
+cleanopt = 1    # [ 0 / 1 / 2 / 3 4]   0: no cleaning, 1: largest files, 2: merged/etc, PROCESS dirs, 3: SLC,RAW, 4: everything
 ssaraopt = --platform=SENTINEL-1A,SENTINEL-1B -r 128 -f 587,588,589,590,591,592,593  -e 2018-07-01
 
 processor                      = isce
