@@ -1,3 +1,5 @@
+**This is an obsolete archive. The content of this repository has been moved to [MintPy/docs/paper](https://github.com/insarlab/MintPy/tree/master/docs/paper).**
+
 ### Figures in Jupyter Notebook for:
 
 + Yunjun, Z., H. Fattahi, F. Amelung, 2019, InSAR time series analysis: error correction and noise reduction, _Remote Sensing of Environment_ (under review).
