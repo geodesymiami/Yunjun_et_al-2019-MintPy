@@ -2,9 +2,10 @@
 
 ### Figures in Jupyter Notebook for:
 
-+ Yunjun, Z., H. Fattahi, F. Amelung, 2019, InSAR time series analysis: error correction and noise reduction, _Remote Sensing of Environment_ (under review).
++ Yunjun, Z., H. Fattahi, F. Amelung, 2019, InSAR time series analysis: error correction and noise reduction (under review), preprint doi:[10.31223/osf.io/9sz6m](https://eartharxiv.org/9sz6m/).
 
 ### Content ([nbviewer](https://nbviewer.jupyter.org/github/geodesymiami/Yunjun_et_al-2019-RSE/tree/master/))  
+
 + Fig. 1 - Performance of four weight functions.    
 + Fig. 2 - Phase-unwrapping error correction with bridging.
 + Fig. 3 - Characteristics of phase-unwrapping error in the closure phase.
@@ -22,3 +23,8 @@
 + Fig. 15 - Impact of network redundancy.
 + Fig. 16 - Advantage and limitation of temporal coherence as reliability measure.
 + Fig. 17 - Comparing PySAR with GIAnT.
+
+### Data
+
++ GalapagosAlosAT133: [link](https://miami.box.com/v/GalapagosAlosAT133)
++ GalapagosSenDT128: [link](https://miami.box.com/v/GalapagosSenDT128)
