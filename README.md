@@ -2,7 +2,7 @@
 
 ### Figures in Jupyter Notebook for:
 
-+ Yunjun, Z., H. Fattahi, F. Amelung, 2019, InSAR time series analysis: error correction and noise reduction (under review), preprint doi:[10.31223/osf.io/9sz6m](https://eartharxiv.org/9sz6m/).
++ Yunjun, Z., H. Fattahi, F. Amelung, 2019, Small baseline InSAR time series analysis: unwrapping error correction and noise reduction (under review), preprint doi:[10.31223/osf.io/9sz6m](https://eartharxiv.org/9sz6m/).
 
 ### Content ([nbviewer](https://nbviewer.jupyter.org/github/geodesymiami/Yunjun_et_al-2019-RSE/tree/master/))  
 
