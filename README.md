@@ -1,8 +1,12 @@
+[![Citation](https://img.shields.io/badge/DOI-10.31223%2Fosf.io%2F9sz6m-blue)](https://eartharxiv.org/9sz6m/)
+[![License](https://img.shields.io/badge/license-MIT-yellow.svg)](https://github.com/geodesymiami/Yunjun_et_al-2019-MintPy/blob/master/LICENSE)
+[![render](https://img.shields.io/badge/render-nbviewer-orange)](https://nbviewer.jupyter.org/github/geodesymiami/Yunjun_et_al-2019-MintPy/tree/master/)
+
 ### Figures in Jupyter Notebook & Data for:
 
 Yunjun, Z., H. Fattahi, F. Amelung, 2019, Small baseline InSAR time series analysis: unwrapping error correction and noise reduction (under review), preprint doi:[10.31223/osf.io/9sz6m](https://eartharxiv.org/9sz6m/).
 
-### Content ([nbviewer](https://nbviewer.jupyter.org/github/geodesymiami/Yunjun_et_al-2019-MintPy/tree/master/))  
+### Content
 
 + Fig. 1 - Performance of four weight functions.
 + Fig. 2 - Phase-unwrapping error correction with bridging.
