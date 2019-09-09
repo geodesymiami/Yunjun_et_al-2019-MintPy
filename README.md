@@ -1,6 +1,6 @@
 ### Figures in Jupyter Notebook & Data for:
 
-Yunjun, Z., H. Fattahi, F. Amelung, 2019, Small baseline InSAR time series analysis: unwrapping error correction and noise reduction (under review), preprint doi:[10.31223/osf.io/9sz6m](https://eartharxiv.org/9sz6m/).
+Yunjun, Z., H. Fattahi, F. Amelung, 2019, Small baseline InSAR time series analysis: unwrapping error correction and noise reduction (under review), preprint doi:[10.31223/osf.io/9sz6m](https://eartharxiv.org/9sz6m/). [CODE](https://github.com/insarlab/MintPy).
 
 ### Content ([nbviewer](https://nbviewer.jupyter.org/github/geodesymiami/Yunjun_et_al-2019-MintPy/tree/master/))  
 
