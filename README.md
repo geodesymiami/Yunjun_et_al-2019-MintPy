@@ -1,6 +1,8 @@
 ### Figures in Jupyter Notebook & Data for:
 
-Yunjun, Z., H. Fattahi, F. Amelung, 2019, Small baseline InSAR time series analysis: unwrapping error correction and noise reduction (under review), preprint doi:[10.31223/osf.io/9sz6m](https://eartharxiv.org/9sz6m/). [CODE](https://github.com/insarlab/MintPy).
+Yunjun, Z., H. Fattahi, F. Amelung (2019), Small baseline InSAR time series analysis: Unwrapping error correction and noise reduction, _Computers & Geosciences_, doi:[10.1016/j.cageo.2019.104331](https://doi.org/10.1016/j.cageo.2019.104331), [EarthArXiv](https://eartharxiv.org/9sz6m/), [CODE](https://github.com/insarlab/MintPy).
+
+The Sentinel-1 and ALOS-1 InSAR time-series for Galápagos volcanoes are available at [Zenodo](https://zenodo.org/record/3464191), including the interferogram stacks (starting point) and displacement time-series (final product) together with their Google Earth KMZ files.
 
 ### Content ([nbviewer](https://nbviewer.jupyter.org/github/geodesymiami/Yunjun_et_al-2019-MintPy/tree/master/))  
 
@@ -20,8 +22,3 @@ Yunjun, Z., H. Fattahi, F. Amelung, 2019, Small baseline InSAR time series analy
 + [Fig. 14](https://nbviewer.jupyter.org/github/geodesymiami/Yunjun_et_al-2019-MintPy/blob/master/Fig_14_S08_network_redundancy.ipynb) - Impact of network redundancy.
 + [Fig. 15](https://nbviewer.jupyter.org/github/geodesymiami/Yunjun_et_al-2019-MintPy/blob/master/Fig_15_tempCoh_limits.ipynb) - Advantage and limitation of temporal coherence as reliability measure.
 + [Fig. 16](https://nbviewer.jupyter.org/github/geodesymiami/Yunjun_et_al-2019-MintPy/blob/master/Fig_16_S09_MintPy_vs_GIAnT.ipynb) - Comparing MintPy with GIAnT.
-
-### Data
-
-+ GalapagosAlosAT133: [link](https://miami.box.com/v/GalapagosAlosAT133)
-+ GalapagosSenDT128: [link](https://miami.box.com/v/GalapagosSenDT128)
