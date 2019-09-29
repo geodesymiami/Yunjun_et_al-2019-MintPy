@@ -76,3 +76,14 @@ mintpy.network.coherenceBased            = yes
 mintpy.network.aoiLALO                   = -0.84:-0.81,-91.16:-91.12
 mintpy.topographicResidual.stepFuncDate  = 20080529, 20090420, 20100519    #Cerro Azul, Fernandina, Alcedo,
 mintpy.deramp                            = linear
+
+
+##————————————————————————————— HDF-EOS5 Attributes -—————————————————————————##
+beam_mode           = SM
+relative_orbit      = 131
+processing_type     = LOS_TIMESERIES
+processing_software = ROIPAC
+first_frame         = 7160
+last_frame          = 7180
+
+
