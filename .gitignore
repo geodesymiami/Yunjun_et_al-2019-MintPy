@@ -1,6 +1,5 @@
-*/*checkpoint.ipynb
-.DS_Store
-*/.DS_Store
+*ipynb_checkpoints*
+*.DS_Store
 *.tenv3
 *.png
 *.jpg
@@ -18,3 +17,5 @@
 *.npy
 *log
 image_cube/*
+volcanic_interaction/*
+
