@@ -2,9 +2,13 @@
 
 Yunjun, Z., H. Fattahi, F. Amelung (2019), Small baseline InSAR time series analysis: Unwrapping error correction and noise reduction, _Computers & Geosciences_, _133_, 104331, doi:[10.1016/j.cageo.2019.104331](https://doi.org/10.1016/j.cageo.2019.104331). [ArXiv](https://eartharxiv.org/9sz6m/).
 
-NOTE: This notebook is based on the released version of [MintPy-1.2](https://github.com/insarlab/MintPy/releases/tag/v1.2) and NOT maintained for future development.
+### Data ([zenodo](https://zenodo.org/record/3464191))
+
+The Sentinel-1 and ALOS-1 InSAR time-series for Galápagos volcanoes are available at https://zenodo.org/record/3464191, including the interferogram stacks (starting point) and displacement time-series (final product) together with their Google Earth KMZ files.
 
 ### Figures ([nbviewer](https://nbviewer.jupyter.org/github/geodesymiami/Yunjun_et_al-2019-MintPy/tree/master/))  
+
+NOTE: This notebook is based on the released version of [MintPy-1.2](https://github.com/insarlab/MintPy/releases/tag/v1.2) and NOT maintained for future development. All figures are plotted using [matplotlib](https://matplotlib.org/).
 
 + [Fig. 1](https://nbviewer.jupyter.org/github/geodesymiami/Yunjun_et_al-2019-MintPy/blob/master/Fig_01_S02_S12_S13_sim_weightFunc.ipynb) - Performance of four weight functions.
 + [Fig. 2](https://nbviewer.jupyter.org/github/geodesymiami/Yunjun_et_al-2019-MintPy/blob/master/Fig_02_S03_sim_bridging.ipynb) - Phase-unwrapping error correction with bridging.
@@ -22,7 +26,3 @@ NOTE: This notebook is based on the released version of [MintPy-1.2](https://git
 + [Fig. 14](https://nbviewer.jupyter.org/github/geodesymiami/Yunjun_et_al-2019-MintPy/blob/master/Fig_14_S08_network_redundancy.ipynb) - Impact of network redundancy.
 + [Fig. 15](https://nbviewer.jupyter.org/github/geodesymiami/Yunjun_et_al-2019-MintPy/blob/master/Fig_15_tempCoh_limits.ipynb) - Advantage and limitation of temporal coherence as reliability measure.
 + [Fig. 16](https://nbviewer.jupyter.org/github/geodesymiami/Yunjun_et_al-2019-MintPy/blob/master/Fig_16_S09_MintPy_vs_GIAnT.ipynb) - Comparing MintPy with GIAnT.
-
-### Data ([Zenodo](https://zenodo.org/record/3464191))
-
-The Sentinel-1 and ALOS-1 InSAR time-series for Galápagos volcanoes are available at https://zenodo.org/record/3464191, including the interferogram stacks (starting point) and displacement time-series (final product) together with their Google Earth KMZ files.
