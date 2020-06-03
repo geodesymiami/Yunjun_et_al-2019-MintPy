@@ -1,10 +1,39 @@
-## Jupyter Notebooks for:
+## Jupyter Notebooks for: ##
 
-Yunjun, Z., H. Fattahi, F. Amelung (2019), Small baseline InSAR time series analysis: Unwrapping error correction and noise reduction, _Computers & Geosciences_, _133_, 104331, doi:[10.1016/j.cageo.2019.104331](https://doi.org/10.1016/j.cageo.2019.104331), [ArXiv](https://eartharxiv.org/9sz6m/), [Code](https://github.com/insarlab/MintPy).
+Yunjun, Z., H. Fattahi, F. Amelung (2019), Small baseline InSAR time series analysis: Unwrapping error correction and noise reduction, _Computers & Geosciences_, _133_, 104331, doi:[10.1016/j.cageo.2019.104331](https://doi.org/10.1016/j.cageo.2019.104331), [arXiv](https://eartharxiv.org/9sz6m/), [code](https://github.com/insarlab/MintPy).
 
-### Data ([zenodo](https://zenodo.org/record/3464191))
+### Data ([zenodo](https://zenodo.org/record/3464191)) ###
 
-The Sentinel-1 and ALOS-1 InSAR time-series for Galápagos volcanoes are available at https://zenodo.org/record/3464191, including the interferogram stacks (starting point) and displacement time-series (final product) together with their Google Earth KMZ files.
+The Sentinel-1 and ALOS-1 InSAR time-series for Galápagos volcanoes are available at https://zenodo.org/record/3464191.
+
+#### Dataset 1: ALOS-1 ascending track 133 frame 7160-7180 ####
+
++ Date: 15 Jan 2007 - 13 Mar 2011 (22 acquisitions)
++ Processor: ROI_PAC + [MintPy](https://github.com/insarlab/MintPy)
++ Configuration: [GalapagosAlosAT133.template](./configs/GalapagosAlosAT133.template)
++ Interferogram stack: [GalapagosAlosAT133.tar.xz](https://zenodo.org/record/3464191/files/GalapagosAlosAT133.tar.xz) (5.8 GB)
++ Displacement time-series (HDF-EOS5): [ALOS_SM_131_7160_7180_20070115_20110313.he5](https://zenodo.org/record/3464191/files/ALOS_SM_131_7160_7180_20070115_20110313.he5) (140 MB)
++ Displacement time-series (KMZ): [ALOS_SM_131_7160_7180_20070115_20110313.kmz](https://zenodo.org/record/3464191/files/ALOS_SM_131_7160_7180_20070115_20110313.kmz) (28 MB)
++ Volcanic events:
+   - Alcedo: 2010 non-eruptive unrest
+   - Fernandina: April 2009 eruption
+   - Cerro Azul: 2008 eruption
+
+#### Dataset 2: Sentinel-1 descending track 128 frame 593-597 ####
+
++ Date: 13 Dec 2014 - 19 Jun 2018 (98 acquisitions)
++ Processor: [ISCE](https://github.com/isce-framework/isce2)/[topsStack](https://github.com/isce-framework/isce2/blob/master/contrib/stack/topsStack/README.md) + [MintPy](https://github.com/insarlab/MintPy)
++ Configuration: [GalapagosSenDT128.template](./configs/GalapagosSenDT128.template)
++ Interferogram stack: [GalapagosSenDT128.tar.xz](https://zenodo.org/record/3464191/files/GalapagosSenDT128.tar.xz) (21.5 GB)
++ Displacement time-series (HDF-EOS5): [S1_IW12_128_0593_0597_20141213_20180619.he5](https://zenodo.org/record/3464191/files/S1_IW12_128_0593_0597_20141213_20180619.he5) (1.3 GB)
++ Displacement time-series (KMZ): [S1_IW12_128_0593_0597_20141213_20180619.kmz](https://zenodo.org/record/3464191/files/S1_IW12_128_0593_0597_20141213_20180619.kmz) (73 MB)
++ Volcanic events:
+   - Wolf: May 2015 eruption
+   - Fernandina: September 2017 eruption (GVP, 2018) and June 2018 eruption (GVP, 2018)
+   - Sierra Negra: inflation prior to the 26 June 2018 eruption (GVP, 2018)
+   - Cerro Azul: March 2017 dike intrusion
+
+HDF-EOS5 file structure is described in https://mintpy.readthedocs.io/en/latest/hdfeos5.
 
 ### Figures ([nbviewer](https://nbviewer.jupyter.org/github/geodesymiami/Yunjun_et_al-2019-MintPy/tree/master/))  
 
