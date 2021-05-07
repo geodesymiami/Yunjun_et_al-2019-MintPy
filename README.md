@@ -4,9 +4,9 @@ Yunjun, Z., H. Fattahi, F. Amelung (2019), Small baseline InSAR time series anal
 
 ### Data ([zenodo](https://zenodo.org/record/3464191)) ###
 
-The Sentinel-1 and ALOS-1 InSAR time-series for Galápagos volcanoes are available at https://zenodo.org/record/3464191.
+The Sentinel-1 and ALOS InSAR time-series for Galápagos volcanoes are available at https://zenodo.org/record/3464191.
 
-#### Dataset 1: ALOS-1 ascending track 133 frame 7160-7180 ####
+#### Dataset 1: ALOS ascending track 133 frame 7160-7180 ####
 
 + Date: 15 Jan 2007 - 13 Mar 2011 (22 acquisitions)
 + Processor: ROI_PAC + [MintPy](https://github.com/insarlab/MintPy)
@@ -14,7 +14,7 @@ The Sentinel-1 and ALOS-1 InSAR time-series for Galápagos volcanoes are availab
 + Interferogram stack: [GalapagosAlosAT133.tar.xz](https://zenodo.org/record/3464191/files/GalapagosAlosAT133.tar.xz) (5.8 GB)
 + Displacement time-series (HDF-EOS5): [ALOS_SM_131_7160_7180_20070115_20110313.he5](https://zenodo.org/record/3464191/files/ALOS_SM_131_7160_7180_20070115_20110313.he5) (140 MB)
 + Displacement time-series (KMZ): [ALOS_SM_131_7160_7180_20070115_20110313.kmz](https://zenodo.org/record/3464191/files/ALOS_SM_131_7160_7180_20070115_20110313.kmz) (28 MB)
-+ Volcanic events:
++ Volcanic events covered and relavent literactures:
    - Alcedo: 2010 non-eruptive unrest
    - Fernandina: April 2009 eruption
    - Cerro Azul: 2008 eruption
@@ -24,18 +24,26 @@ The Sentinel-1 and ALOS-1 InSAR time-series for Galápagos volcanoes are availab
 + Date: 13 Dec 2014 - 19 Jun 2018 (98 acquisitions)
 + Processor: [ISCE](https://github.com/isce-framework/isce2)/[topsStack](https://github.com/isce-framework/isce2/blob/master/contrib/stack/topsStack/README.md) + [MintPy](https://github.com/insarlab/MintPy)
 + Configuration: [GalapagosSenDT128.template](./configs/GalapagosSenDT128.template)
-+ Interferogram stack: [GalapagosSenDT128.tar.xz](https://zenodo.org/record/3464191/files/GalapagosSenDT128.tar.xz) (21.5 GB)
-+ Displacement time-series (HDF-EOS5): [S1_IW12_128_0593_0597_20141213_20180619.he5](https://zenodo.org/record/3464191/files/S1_IW12_128_0593_0597_20141213_20180619.he5) (1.3 GB)
++ Interferogram stack (in HDF5/MintPy format): [GalapagosSenDT128.tar.xz](https://zenodo.org/record/3464191/files/GalapagosSenDT128.tar.xz) (21.5 GB)
++ Interferogram stack (in HDF5/MintPy format) with 30 sequential connections: [SierraNegraSenDT128.zip](https://zenodo.org/record/4743058/files/SierraNegraSenDT128.zip) (850 MB)
+  - Area extent: Sierra Negra caldera rim
+  - Dimension: 2475 * 150 * 150
+  - Related to Fig. 14
++ Displacement time-series (in HDF-EOS5 format): [S1_IW12_128_0593_0597_20141213_20180619.he5](https://zenodo.org/record/3464191/files/S1_IW12_128_0593_0597_20141213_20180619.he5) (1.3 GB)
 + Displacement time-series (KMZ): [S1_IW12_128_0593_0597_20141213_20180619.kmz](https://zenodo.org/record/3464191/files/S1_IW12_128_0593_0597_20141213_20180619.kmz) (73 MB)
-+ Volcanic events:
++ Volcanic events covered and relavent literactures:
    - Wolf: May 2015 eruption
    - Fernandina: September 2017 eruption (GVP, 2018) and June 2018 eruption (GVP, 2018)
    - Sierra Negra: inflation prior to the 26 June 2018 eruption (GVP, 2018)
    - Cerro Azul: March 2017 dike intrusion
 
-HDF-EOS5 file structure is described in https://mintpy.readthedocs.io/en/latest/hdfeos5.
+#### Useful links ####
 
-### Figures ([nbviewer](https://nbviewer.jupyter.org/github/geodesymiami/Yunjun_et_al-2019-MintPy/tree/master/))  
++ HDF-EOS5 file structure is described in https://mintpy.readthedocs.io/en/latest/hdfeos5.
++ HDF5/MintPy file structure is described in https://mintpy.readthedocs.io/en/latest/api/data_structure/.
++ KMZ file is described in https://mintpy.readthedocs.io/en/latest/google_earth/.
+
+### Figures ([nbviewer](https://nbviewer.jupyter.org/github/geodesymiami/Yunjun_et_al-2019-MintPy/tree/master/)) ###
 
 NOTE: This notebook is based on the released version of [MintPy-1.2](https://github.com/insarlab/MintPy/releases/tag/v1.2.0) and NOT maintained for future development. All figures are plotted using [matplotlib](https://matplotlib.org/).
 
